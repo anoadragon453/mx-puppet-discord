@@ -687,7 +687,7 @@ export class DiscordClass {
 			return;
 		}
 		await this.store.setBridgedGuild(puppetId, param);
-		await sendMessage(`Guild ${guild.name} (\`${guild.id}\`) is now been bridged!`);
+		await sendMessage(`Guild ${guild.name} (\`${guild.id}\`) is now being bridged!`);
 	}
 
 	public async commandUnbridgeGuild(puppetId: number, param: string, sendMessage: SendMessageFn) {
